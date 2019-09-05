@@ -49,9 +49,6 @@ function getRawComment(node) {
     if (comments && comments.length) {
         var comment = void 0;
         if (node.kind === ts.SyntaxKind.SourceFile) {
-            if (comments.length === 1) {
-                return null;
-            }
             comment = comments[0];
         }
         else {
