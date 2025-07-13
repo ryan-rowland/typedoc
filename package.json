@@ -1,0 +1,15 @@
+{
+  "name": "typedoc",
+  "version": "1.0.0",
+  "description": "typedoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ui-styles-pkg": "https://packages.storageartifact.com/npm/twilio-typedoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
